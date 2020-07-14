@@ -1,0 +1,20 @@
+@media only screen and (max-width: 546px) {
+  .hero_center h1{
+    font-size: 45px;
+  }
+  .hero_center p{
+    font-size: 28px;
+  }
+  .figure {
+    width: 100%;
+  }
+  .desktop {
+    margin-top: 25px;
+  }
+  .para_about {
+    width: 90%;
+    margin: 10px auto;
+    padding: 0;
+    text-align: center;
+  }
+}

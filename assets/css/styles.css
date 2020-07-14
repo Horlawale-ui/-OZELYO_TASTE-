@@ -1,0 +1,132 @@
+header{
+    width: 100%;
+    background-image:url(../image/landing_sec.png);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    height: 100vh;
+}
+ .text-color{
+  color: #fff;
+}
+.logo{
+  width: 150px;
+}
+.active_link{
+  color: 964B00;
+}
+.hero_center{
+position:absolute;
+top: 60%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+}
+.hero_center h1{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 80px;
+line-height: 102px;
+}
+
+.hero_center p{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 38px;
+line-height: 51px;
+}
+.home_button{
+margin-top: 100px;
+background-color: #964B00;
+width: 150px;
+height: 50px;
+color: white;
+}
+
+ /*-- About us --*/
+.about_us{
+  margin: 70px 0px;
+}
+.about_us .about_image{
+  width: 100%;
+}
+.about_header{
+  text-align: center;
+}
+ .para_about{
+  margin: 20px 0px;
+  padding: 10px 20px;
+}
+/*-- About us --*/
+/*-- Service --*/
+.service_title{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.service_title p{
+  padding: 0px 20px;
+}
+.img_caption{
+  text-align: center;
+}
+.img_caption h4{
+  margin-bottom: 30px;
+}
+.row_bottom{
+  margin-bottom: 80px;
+}
+/*-- Service --*/
+/*-- Spices --*/
+.spice_title{
+  margin-top: 80px;
+  text-align: center;
+}
+.row_bt{
+  margin-bottom: 30px;
+}
+.row_btm{
+  margin-bottom: 60px;
+}
+/*-- Spices --*/
+/*-- team  --*/
+.team{
+  background-color: F2F2F2;
+}
+.team_members{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.figure-name{
+  text-align: center;
+}
+/*-- team  --*/
+/*-- footer  --*/
+.footer{
+  background-color: black;
+}
+.footer_con{
+  margin-top: 30px;
+}
+.footer_title{
+  margin-bottom: 50px;
+  color: white;
+}
+.footer_title h3{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 51px;
+color: #FFFFFF;  
+}
+.form-title h2{
+  color: white;
+  margin-bottom: 30px;
+}
+.btn_footer{
+  background-color: #F2C44C;
+}
+
+/*-- footer  --*/
