@@ -250,21 +250,22 @@
     </div>
     <div class="col-lg-6 col-md-6 col-sm-12 footer_con">
      <div class="form-title"><h2>Get In Touch</h2></div>
-      <form class="w-50">
+      <form action="POST" class="w-50" data-netlify="true">
       <div class="row d-flex flex-row flex-wrap">
             <div class="col input-textbox">
                <div class="name">
                    <label for="Name">Name</label><br>
-                <input type="text" id="txtname" class="form-control" placeholder="Name">
+                <input type="text" id="txtname" class="form-control" placeholder="Name" name="name">
                </div><br>
                 <div class="email">
                    <label for="Email">Email Address</label><br>
-                <input type="text" id="txtemail" class="form-control" placeholder="Email">
+                <input type="text" id="txtemail" class="form-control" name="email" placeholder="Email">
                </div><br>
                 <div class="message">
                    <label for="Message">Message</label><br>
-              <textarea name="message" id="txtmessage" class="form-control" placeholder="Your message"></textarea>
+              <textarea name="message" id="txtmessage" class="form-control" placeholder="Your message" name="message"></textarea>
                </div>
+               <div data-netlify-recapycha="true"></div>
                <div class="btn">   
                 <div class="btn-submit">
                    <button type="submit" class="btn_footer">Send Message</button>
